@@ -30,11 +30,11 @@
     cursor: pointer;
     transition: .5s;
     user-select: none;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 }
 
 .header img:hover {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
     transform: scale(1.05);
     box-shadow: 3px 3px 20px rgba(0, 0, 139, 0.548);  
 }
@@ -44,7 +44,7 @@
     margin-left: auto;
 }
 .header-text h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: normal;
 }
 .header-text p{
@@ -135,9 +135,11 @@ border-radius: 10px;
 .right-area{
     width:70% ;
     padding: 50px;
+    height: 750px;
+        overflow: auto;
 }
 .right-area h1{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: normal;
   
 }
